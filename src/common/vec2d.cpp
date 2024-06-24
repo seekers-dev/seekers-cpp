@@ -49,7 +49,4 @@ TEST_CASE("Check vector"){
     SUBCASE("addition"){
         CHECK(v + v == Vec2d(2,2));
     }
-    SUBCASE("false"){
-        CHECK(v+v == v);
-    }
 }
